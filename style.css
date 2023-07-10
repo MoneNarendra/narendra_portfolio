@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@500&display=swap");
+* {
+  font-family: "Ysabeau Infant", sans-serif;
+  font-size: 18px;
+}
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+/* Nav Section Start */
+.nav-link{
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  position:  relative;
+}
+.nav-link::after{
+  content: "";
+  opacity: 0;
+  transition: all 0.2s;
+  height: 3px;
+  width: 100%;
+  background-color: brown;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+}
+.nav-link:hover::after{
+  opacity: 1;
+}
+.nav-bar-items {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+}
+.nav-logo-text {
+  color: brown;
+  font-size: 30px;
+  font-weight: bolder;
+}
+/* Nav Section End */
+/*Banner Section Start*/
+.banner-img {
+  background-image: url(./Images_port/banner-img2.jpg);
+  background-color: black;
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+}
+
+.bannerText {
+  text-align: right;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.bannerTitle {
+  font-size: 4rem;
+}
+.bannerDesc {
+  font-size: 3rem;
+}
+.hor-line {
+  border-width: 5px;
+  border-color: #aca7cb;
+  width: 100px;
+}
+/*Banner Section End*/
+/* About Section Start*/
+.about-background {
+  background-color: black;
+  height: 100%;
+  background-size: cover;
+  position: relative;
+  padding-top: 80px;
+}
+/* About Section Start*/
+/* Skills Section Start */
+.skills-background {
+  background-color: black;
+  height: 100%;
+  background-size: cover;
+  position: relative;
+  padding-top: 80px;
+}
+.skillscard {
+  cursor: pointer;
+  background-color: #212529;
+}
+.skillscard:hover {
+  background-color: #4b4a54;
+  border: 2px solid white;
+}
+/* Skills Section End */
+/*Image Hover*/
+.img-fluid:hover {
+  background-color: black;
+  border: 2px solid black;
+}
+/* Experiance Company Logo */
+.companyLogo {
+  cursor: pointer;
+  border-radius: 50px;
+}
+.icompanyLogo:hover {
+  background-color: black;
+  border: 2px solid brown;
+}
+/*Project Card Animation Start*/
+.project_cards {
+  color: white;
+  background-color: #212529;
+}
+.project_cards:hover {
+  background: brown;
+  box-shadow: 0 0 5px brown, 0 0 25px brown, 0 0 50px brown, 0 0 200px brown;
+}
+.more-sorce-text {
+  color: brown;
+}
+/*Project Card Animation End*/
+/*All Buttons Start*/
+.btn-1 {
+  color: white;
+  background-color: brown;
+  border-style: solid;
+  border-width: 0px;
+  border-color: white;
+  height: 40px;
+  width: 120px;
+  border-radius: 10px;
+}
+.btn-1:hover {
+  box-shadow: 10px 10px 0px white;
+  top: -5px;
+  left: -5px;
+}
+/*All Buttons End*/
+/*Futter Section Start*/
+.fotter-section-bg {
+  background-color: #212529;
+}
+.BIcon {
+  color: brown;
+  font-size: 35px;
+}
+/*Futter Section Start*/
+
